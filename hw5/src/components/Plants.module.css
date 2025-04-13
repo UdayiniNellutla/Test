@@ -1,0 +1,115 @@
+/* Plants.module.css */
+
+.hero {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+    margin: 10px;
+    padding: 5rem;
+}
+
+.hero h1 {
+    color: #d1a055;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 65px;
+    letter-spacing: .02em;
+    line-height: 1.25em;
+    text-transform: none;
+    margin-bottom: 40px;
+}
+
+.hero p {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .02em;
+    line-height: 1.8em;
+    text-transform: none;
+    color: #000;
+    margin: 10px;
+}
+
+.plants {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  margin-bottom: 90px;
+  margin-top: 80px;
+}
+
+.plantsContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.column p {
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.2em;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.draggable {
+    cursor: grab;
+    transition: transform 0.2s ease-in-out;
+}
+
+.draggable:active {
+    cursor: grabbing;
+}
+
+.column img {
+    height: 40%;
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.centeredLine {
+    width: 70%;
+    margin: 50px auto;
+    border: 1px solid #ccc;
+}
+
+.appreciation {
+    text-align: center;
+}
+
+.appreciation h3 {
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.25em;
+    line-height: 2em;
+    text-transform: uppercase;
+}
+
+.appreciation h1 {
+    color: #d1a055;
+    font-family: "Proxima Nova", sans-serif;
+    font-weight: 400;
+    font-size: 40px;
+    letter-spacing: 0.02em;
+    line-height: 1.25em;
+    text-transform: none;
+}
